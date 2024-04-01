@@ -6,3 +6,17 @@
 2024-04-01 14:04:16.1962 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
 2024-04-01 14:04:16.2130 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
 2024-04-01 14:04:16.2261 Info Configuration initialized.
+2024-04-01 14:14:05.2037 Info AppDomain Shutting down. LogFactory closing...
+2024-04-01 14:14:05.2204 Info LogFactory has been closed.
+2024-04-01 17:31:07.4513 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-01 17:31:07.4906 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-01 17:31:07.5116 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-01 17:31:07.5305 Info Configuration initialized.
+2024-04-01 17:33:24.1576 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-01 17:33:24.1832 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-01 17:33:24.2026 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-01 17:33:24.2227 Info Configuration initialized.
+2024-04-01 17:35:51.4604 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-01 17:35:51.4824 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-01 17:35:51.4969 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-01 17:35:51.5100 Info Configuration initialized.
