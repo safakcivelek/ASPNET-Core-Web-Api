@@ -30,9 +30,6 @@ namespace Presentation.Controllers
             .BookService
             .GetOneBookById(id, false);
 
-            if (book is null)
-                return NotFound(); //404
-
             return Ok(book);
         }
 
@@ -65,6 +62,7 @@ namespace Presentation.Controllers
             return NoContent();
         }
 
+
         [HttpPatch("{id:int}")]
         public IActionResult PartiallyUpdateOneBook([FromRoute(Name = "id")] int id,
             [FromBody] JsonPatchDocument<Book> bookPatch)
@@ -73,9 +71,6 @@ namespace Presentation.Controllers
             var entity = _manager
                 .BookService
                 .GetOneBookById(id, true);
-
-            if (entity is null)
-                return NotFound(); // 404
 
             bookPatch.ApplyTo(entity);
             _manager.BookService.UpdateOneBook(id, entity, true);
