@@ -13,7 +13,7 @@ namespace Presentation.Controllers
     [ApiController]
     [Route("api/books")]
     public class BooksController : ControllerBase
-    {
+    {       
         private readonly IServiceManager _manager;
         public BooksController(IServiceManager manager)
         {

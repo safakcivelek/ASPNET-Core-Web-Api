@@ -16,7 +16,5 @@ namespace WebApi.Extensions
 
         public static void ConfigureServiceManager(this IServiceCollection services) =>
            services.AddScoped<IServiceManager, ServiceManager>();
-
-
     }
 }
