@@ -8,6 +8,7 @@ namespace WebApi.Utilities.Formatters
 {
     public class CsvOutputFormatter : TextOutputFormatter
     {
+        //
         public CsvOutputFormatter()
         {
             SupportedMediaTypes.Add(MediaTypeHeaderValue.Parse("text/csv"));
