@@ -1,4 +1,5 @@
 ﻿using Entities.DataTransferObjects;
+using Entities.Models;
 
 namespace Services.Contracts
 {
@@ -9,5 +10,8 @@ namespace Services.Contracts
         BookDto CreateOneBook(BookDtoForInsertion book);
         void UpdateOneBook(int id, BookDtoForUpdate bookDto, bool trackChanges);
         void DeleteOneBook(int id, bool trackChanges);
+
+        (BookDtoForUpdate bookDtoForUpdate, Book book) GetOneBookForPatch(int id, bool trackChanges);
+        void SaveChangesForPatch(BookDtoForUpdate bookDtoForUpdate, Book book);
     }
 }
