@@ -86,3 +86,29 @@
 2024-04-03 06:46:02.9909 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
 2024-04-03 06:46:03.0121 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
 2024-04-03 06:46:03.0308 Info Configuration initialized.
+2024-04-03 14:31:30.1172 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-03 14:31:30.2342 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-03 14:31:30.2519 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-03 14:31:30.2690 Info Configuration initialized.
+2024-04-03 14:35:12.9177 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-03 14:35:12.9596 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-03 14:35:12.9894 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-03 14:35:13.0098 Info Configuration initialized.
+2024-04-03 14:35:45.8729 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-03 14:35:45.8965 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-03 14:35:45.9163 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-03 14:35:45.9330 Info Configuration initialized.
+2024-04-03 14:40:29.0574 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-03 14:40:29.2051 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-03 14:40:29.2628 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-03 14:40:29.3007 Info Configuration initialized.
+2024-04-03 14:45:00.9276 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-03 14:45:00.9479 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-03 14:45:00.9643 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-03 14:45:00.9830 Info Configuration initialized.
+2024-04-03 14:47:58.3996 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-03 14:47:58.4177 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-03 14:47:58.4177 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-03 14:47:58.4451 Info Configuration initialized.
+2024-04-03 16:34:51.6836 Info AppDomain Shutting down. LogFactory closing...
+2024-04-03 16:34:51.6999 Info LogFactory has been closed.
