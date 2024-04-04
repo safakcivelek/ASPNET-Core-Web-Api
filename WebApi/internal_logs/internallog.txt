@@ -112,3 +112,19 @@
 2024-04-03 14:47:58.4451 Info Configuration initialized.
 2024-04-03 16:34:51.6836 Info AppDomain Shutting down. LogFactory closing...
 2024-04-03 16:34:51.6999 Info LogFactory has been closed.
+2024-04-03 17:33:27.1188 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-03 17:33:27.1383 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-03 17:33:27.1531 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-03 17:33:27.1531 Info Configuration initialized.
+2024-04-03 17:34:33.3073 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-03 17:34:33.3273 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-03 17:34:33.3422 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-03 17:34:33.3564 Info Configuration initialized.
+2024-04-04 10:00:47.7664 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-04 10:00:47.8575 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-04 10:00:47.8728 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-04 10:00:47.8865 Info Configuration initialized.
+2024-04-04 10:03:26.4811 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-04-04 10:03:26.5024 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-04-04 10:03:26.5203 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-04-04 10:03:26.5368 Info Configuration initialized.
