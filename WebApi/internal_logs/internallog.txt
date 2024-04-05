@@ -128,3 +128,5 @@
 2024-04-04 10:03:26.5024 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
 2024-04-04 10:03:26.5203 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
 2024-04-04 10:03:26.5368 Info Configuration initialized.
+2024-04-04 11:11:50.5361 Info AppDomain Shutting down. LogFactory closing...
+2024-04-04 11:11:50.5537 Info LogFactory has been closed.
