@@ -17,10 +17,10 @@ builder.Services.AddControllers(config =>
     config.RespectBrowserAcceptHeader = true;
     config.ReturnHttpNotAcceptable = true; //406
 })
-    //.AddCustomCsvFormatter()
-    //.AddXmlDataContractSerializerFormatters()
+    .AddXmlDataContractSerializerFormatters()
+    .AddCustomCsvFormatter()
     .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly)
-.AddNewtonsoftJson();
+//.AddNewtonsoftJson();
 
 builder.Services.AddScoped<ValidationFilterAttribute>();
 
