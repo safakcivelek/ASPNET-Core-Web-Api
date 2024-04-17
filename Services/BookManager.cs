@@ -6,12 +6,6 @@ using Entities.Models;
 using Entities.RequestFeatures;
 using Repositories.Contracts;
 using Services.Contracts;
-using System;
-using System.Collections.Generic;
-using System.Dynamic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
 
 namespace Services
 {
@@ -65,6 +59,12 @@ namespace Services
                 linkParameters.HttpContext);
 
             return (linkResponse: links, metaData: booksWithMetaData.MetaData);
+        }
+
+        public async Task<List<Book>> GetAllBooksAsync(bool trackChanges)
+        {
+           var books = await _manager.Book.GetAllBooksAsync(trackChanges);
+            return books;
         }
 
         public async Task<BookDto> GetOneBookByIdAsync(int id, bool trackChanges)
