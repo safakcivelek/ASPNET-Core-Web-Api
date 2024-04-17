@@ -7,6 +7,7 @@ using Repositories.Contracts;
 using Repositories.EFCore;
 using Services;
 using Services.Contracts;
+using Microsoft.AspNetCore.Mvc.Versioning;
 
 namespace WebApi.Extensions
 {
@@ -88,6 +89,7 @@ namespace WebApi.Extensions
                 opt.ReportApiVersions = true;
                 opt.AssumeDefaultVersionWhenUnspecified = true;
                 opt.DefaultApiVersion = new ApiVersion(1, 0);
+                opt.ApiVersionReader = new HeaderApiVersionReader("api-version");
             });
         }
     }
