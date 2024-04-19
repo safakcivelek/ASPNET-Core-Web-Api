@@ -43,6 +43,7 @@ builder.Services.ConfigureDataShaper();
 builder.Services.AddCustomMediaTypes();
 builder.Services.AddScoped<IBookLinks, BookLinks>();
 builder.Services.ConfigureVersioning();
+builder.Services.ConfigureResponseCaching();
 
 
 var app = builder.Build();
@@ -64,6 +65,8 @@ if (app.Environment.IsProduction())
 app.UseHttpsRedirection();
 
 app.UseCors("CorsPoliciy");
+
+app.UseResponseCaching(); // Caching'in, Cors'dan sonra kullanýlmasý önerilir.
 
 app.UseAuthorization();
 
