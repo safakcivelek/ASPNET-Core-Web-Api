@@ -17,7 +17,7 @@ namespace Presentation.ActionFilters
 
             if (param is null)
             {
-                context.Result = new BadRequestObjectResult($"Onject is null." + 
+                context.Result = new BadRequestObjectResult($"Object is null." + 
                     $"Controller : {controller} " +
                     $"Action : {action}" );
                 return; //400
