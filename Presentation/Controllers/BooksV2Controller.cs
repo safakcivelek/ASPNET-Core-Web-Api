@@ -6,6 +6,7 @@ namespace Presentation.Controllers
     //[ApiVersion("2.0", Deprecated =true)] // Yayından kaldırılacağı bilgisi kullanıcı ile paylaşıldı.
     [ApiController]
     [Route("api/books")]
+    [ApiExplorerSettings(GroupName ="v2")]
     public class BooksV2Controller : ControllerBase
     {
         private readonly IServiceManager _manager;
@@ -14,6 +15,7 @@ namespace Presentation.Controllers
             _manager = manager;
         }
 
+        [HttpGet]
         public async Task<IActionResult> GetAllBooksAsync()
         {
             var books =await _manager.BookService.GetAllBooksAsync(false);
