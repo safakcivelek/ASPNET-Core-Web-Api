@@ -46,5 +46,14 @@ namespace Presentation.Controllers
 
             return Ok(tokenDto);
         }
+
+        [HttpPost("refresh")]
+        [ServiceFilter(typeof(ValidationFilterAttribute))]
+        public async Task<IActionResult> Refresh([FromBody] TokenDto tokenDto)
+        {
+            var tokenDtoReturn = await _service.AuthenticationService.RefreshToken(tokenDto);
+
+            return Ok(tokenDtoReturn);
+        }
     }
 }
