@@ -27,7 +27,7 @@ namespace Presentation.Controllers
             _manager = manager;
         }
 
-        [Authorize(Roles = "User, Editor, Admin")]
+        [Authorize]
         [HttpHead]
         [HttpGet(Name = "GetAllBooksAsync")]
         [ServiceFilter(typeof(ValidateMediaTypeAttribute))]
@@ -52,7 +52,7 @@ namespace Presentation.Controllers
                 Ok(result.linkResponse.ShapedEntities);
         }
 
-        [Authorize(Roles = "User, Editor, Admin")]
+        [Authorize]
         [HttpGet("{id:int}")]
         public async Task<IActionResult> GetOneBookAsync([FromRoute(Name = "id")] int id)
         {
