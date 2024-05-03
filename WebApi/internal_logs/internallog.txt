@@ -174,3 +174,15 @@
 2024-05-03 09:54:45.4740 Info Configuration initialized.
 2024-05-03 09:54:47.5702 Info AppDomain Shutting down. LogFactory closing...
 2024-05-03 09:54:47.5702 Info LogFactory has been closed.
+2024-05-03 14:00:58.1215 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-05-03 14:00:58.1405 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-03 14:00:58.1545 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-05-03 14:00:58.1669 Info Configuration initialized.
+2024-05-03 14:00:59.9095 Info AppDomain Shutting down. LogFactory closing...
+2024-05-03 14:00:59.9205 Info LogFactory has been closed.
+2024-05-03 14:01:15.2276 Info Registered target NLog.Targets.FileTarget(Name=logfile)
+2024-05-03 14:01:15.2479 Info NLog, Version=5.0.0.0, Culture=neutral, PublicKeyToken=5120e14c03d0593c. File version: 5.2.8.2366. Product version: 5.2.8+f586f1341c46fa38aaaff4c641e7f0fa7e813943. GlobalAssemblyCache: False
+2024-05-03 14:01:15.2653 Info Validating config: TargetNames=logfile, ConfigItems=12, FilePath=C:\Users\AirDefence\Desktop\bsStoreApp\WebApi\nlog.config
+2024-05-03 14:01:15.2777 Info Configuration initialized.
+2024-05-03 14:01:17.1176 Info AppDomain Shutting down. LogFactory closing...
+2024-05-03 14:01:17.1294 Info LogFactory has been closed.
