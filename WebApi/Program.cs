@@ -1,9 +1,6 @@
 using AspNetCoreRateLimit;
 using Microsoft.AspNetCore.Mvc;
-using Microsoft.EntityFrameworkCore;
 using NLog;
-using Presentation.ActionFilters;
-using Repositories.EFCore;
 using Services;
 using Services.Contracts;
 using WebApi.Extensions;
@@ -22,9 +19,11 @@ builder.Services.AddControllers(config =>
     .AddXmlDataContractSerializerFormatters()
     .AddCustomCsvFormatter()
     .AddApplicationPart(typeof(Presentation.AssemblyReference).Assembly);
-//.AddNewtonsoftJson();
+    //.AddNewtonsoftJson(opt => 
+    //    opt.SerializerSettings.ReferenceLoopHandling = Newtonsoft.Json.ReferenceLoopHandling.Ignore
+    //);
 
-builder.Services.AddScoped<ValidationFilterAttribute>();
+//builder.Services.AddScoped<ValidationFilterAttribute>();
 
 builder.Services.Configure<ApiBehaviorOptions>(options =>
 {
@@ -53,6 +52,7 @@ builder.Services.AddHttpContextAccessor();
 
 builder.Services.ConfigureIdentity();
 builder.Services.ConfigureJWT(builder.Configuration);
+
 
 
 var app = builder.Build();
