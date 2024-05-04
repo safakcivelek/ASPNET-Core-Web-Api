@@ -22,11 +22,12 @@ namespace Services
             UserManager<User> userManager,
             IBookLinks bookLinks)
         {
-            _bookService = new Lazy<IBookService>(() => 
-            new BookManager(repositoryManager, logger, mapper, bookLinks));
-
             _categoryService = new Lazy<ICategoryService>(() =>
                 new CategoryManager(repositoryManager));
+
+            _bookService = new Lazy<IBookService>(() => 
+            new BookManager(repositoryManager, logger, mapper, bookLinks, _categoryService.Value));
+
 
             // _authenticationService'i constructor'dan ayrılmadan önce başlatmamız gerekiyor.
             // Her nesnenin IoC'ye kaydını yapmam için böyle bir yötem kullanıyoruz.
